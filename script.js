@@ -8,7 +8,7 @@ function sendOrder() {
     return;
   }
 
-  fetch('https://restaurant-website-1p5e.onrender.com/order', {  // <-- UPDATED
+  fetch('https://restaurant-website-1p5e.onrender.com/order', {  // <-- updated URL
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, phone, order })
@@ -28,7 +28,7 @@ function sendMessage() {
     return;
   }
 
-  fetch('https://restaurant-website-1p5e.onrender.com/contact', {  // <-- UPDATED
+  fetch('https://restaurant-website-1p5e.onrender.com/contact', {  // <-- updated URL
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, message })
